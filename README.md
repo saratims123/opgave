@@ -2,6 +2,8 @@
 
 Sara Tims Michaelsen 2.R årsprøve programmering
 
+ https://saratims123.github.io/opgave/
+
 Jeg vil gerne forklarer API'er er, hvor jeg laver det til en app, hvor jeg har arbejdet med nogle API'er og til sidst vil jeg gerne vise det slideshow inde i min app.
 
 Jeg vil bruge hmtl, javeskrift, API'er, jQvery og også handelbars.
