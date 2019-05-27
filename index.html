@@ -8,7 +8,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Årsprøve jubi:)</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -64,9 +64,9 @@
         <nav>
           <div class="nav-wrapper">
             <ul id="nav-mobile" class="left">
-              <li id="menu-page-one"><a href="#">Page 1</a></li>
-              <li id="menu-page-two"><a href="#">Page 2</a></li>
-              <li id="menu-page-three"><a href="#">Page 3</a></li>
+              <li id="menu-page-one"><a href="#">Forside</a></li>
+              <li id="menu-page-two"><a href="#">Mit API</a></li>
+              <li id="menu-page-three"><a href="#">Stemmepræsentation</a></li>
             </ul>
           </div>
         </nav>
@@ -77,7 +77,9 @@
       <div class="row">
         <div class="col s12 m6">
           <h4> API app</h4>
-          <p>Gå til side 2 for et api og side 3 for at hørere min lille tale:</p>
+          <p>Dette er min opgave.
+            Jeg vil starte med, at vise jer mit API også derefter vil jeg vise min stemmepræsentation.
+            Der efter vil jeg gennemgå koderne med jer</p>
 
         </div>
       </div>
@@ -216,7 +218,9 @@
 
     //Handle menu - first show page one no matter what
     getApiData(1)
+    $('#page-one').show();
     $('#page-two').hide();
+    $('#page-three').hide();
 
     //When someone clicks the page one navigation link
     //This is the second way to make something happen, when you click an HTML element

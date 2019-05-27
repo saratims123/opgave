@@ -14,7 +14,7 @@ function setup() {
 
     cnv = createCanvas(400, 400);
     background('white');
-    txt = createElement("h5", "Say something..")
+    txt = createElement("h5", "Sig noget ")
         .position(40, 200)
         .style("color:black;")
         .hide();
@@ -25,7 +25,7 @@ function setup() {
     //Check browser comp
     if (SpeechRecognition !== undefined) {
         btn = createButton("Klik for at aktivere mikrofon")
-            .position(40, 200)
+            .position(20, 200)
             .style("font-size:1em;background-color:#33C3F0;border-color:#33C3F0;border-radius:8px;color:white;cursor:pointer;")
             .mousePressed(function () {
                 btn.hide();
@@ -59,11 +59,11 @@ function showResult() {
         switchImage('assets/basket.jpg');
         }
 
-        if(sentence.includes("brundhåret")){
+        if(sentence.includes("brun")){
             switchImage('images/brunhåret.png');
             }
             
-            if(sentence.includes("blondt")){
+            if(sentence.includes("blond")){
             switchImage('images/blondt.png');
             }
         
